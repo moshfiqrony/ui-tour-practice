@@ -6,28 +6,28 @@ import Joyride from "react-joyride";
 export default function App() {
   const steps = [
     {
-      disableBeacon: true,
+      // disableBeacon: true,
       target: ".home-tab",
       showSkipButton: true,
       content: "By clicking here you will be redirectde to the home page"
     },
     {
-      disableBeacon: true,
+      // disableBeacon: true,
       target: ".link-tab",
       content: "By clicking here you will be redirectde to the link page"
     },
     {
-      disableBeacon: true,
+      // disableBeacon: true,
       target: ".dropdown-tab",
       content: "By clicking here it will show a dropdown"
     },
     {
-      disableBeacon: true,
+      // disableBeacon: true,
       target: ".disabled-tab",
       content: "By clicking here nothing will happen beacuse it is disabled"
     },
     {
-      disableBeacon: true,
+      // disableBeacon: true,
       target: ".search-tab",
       content: "By clicking here app will search"
     }
